@@ -46,8 +46,11 @@ Each trace file consists of:
 - Instructions Since Last Access: Number of instructions executed between consecutive memory accesses. This is also ignored in the simulation.
 
 ## How to Run the code
-1. Clone the repository and navigate to the project directory. 
-2. Run the respective parts of the simulation:
+1. Clone the repository and navigate to the project directory.
+``` bash
+gitclone
+```
+3. Run the respective parts of the simulation:
 ``` bash
 python code.py
 ```
