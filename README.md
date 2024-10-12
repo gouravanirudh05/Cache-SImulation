@@ -73,6 +73,7 @@ Each trace file consists of:
 1. Clone the repository and navigate to the project directory.
 ``` bash
 gitclone https://github.com/gouravanirudh05/Cache-Simulator.git
+cd Cache-Simulator
 ```
 3. Run the respective parts of the simulation:
 ``` bash
