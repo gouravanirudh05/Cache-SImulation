@@ -2,6 +2,30 @@
 
 ## Project Overview
 This project simulates the behavior of a set-associative cache system under varying configurations to evaluate cache performance in terms of hit and miss rates. The main goal is to observe how changes in cache size, block size, and associativity influence cache behavior when processing memory trace files.
+## Generalization of the Project
+
+This project is a flexible and reusable simulation of a set-associative cache, which can be used with any memory trace files to evaluate cache performance. The cache simulator is designed to handle various configurations of cache size, block size, and associativity, making it applicable to a wide range of scenarios involving memory access patterns.
+
+While the project includes specific memory trace files to demonstrate the functionality, the system is built in a way that it can accept any other trace files following the same format (i.e., containing memory addresses). The purpose of using these particular test files is to provide a consistent basis for evaluation and comparison across different cache configurations, allowing us to draw meaningful conclusions about the impact of cache parameters on performance.
+### Why These Test Files?
+
+The provided test files were chosen for the following reasons:
+- **Representative Workloads**: The trace files simulate typical memory access patterns from real-world applications, offering a practical way to analyze the behavior of the cache under realistic conditions.
+- **Diverse Memory Access Patterns**: These test files include a variety of access patterns that help illustrate how different cache parameters (size, block size, associativity) affect hit/miss rates across different scenarios.
+- **Benchmarking**: Using standardized trace files enables the comparison of results with similar cache simulators or studies, ensuring the observations made can be validated and compared against existing benchmarks.
+
+By using these trace files, we are showcasing the effectiveness of our cache design under different conditions. However, the code is fully customizable and can be extended to simulate cache behavior for any memory trace files as long as they follow the format: `Access Type`, `Memory Address`, and `Instructions Since Last Access`.
+
+You can easily modify the input to test your own memory trace files and analyze the cache's performance in different workloads.
+
+### How to Use with Other Test Files
+
+To use your own memory trace files, simply place them in the same directory as the script and ensure they follow the correct format:
+- **Access Type**: (optional for this project, ignored)
+- **Memory Address**: 32-bit hexadecimal memory address.
+- **Instructions Since Last Access**: (ignored in this project)
+
+The cache simulator will process your input files and provide hit/miss rate statistics for your custom workload.
 
 ## Features
 - 4-way Set Associative Cache with configurable cache sizes and block sizes.
