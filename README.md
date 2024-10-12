@@ -87,4 +87,4 @@ You can view the hit/miss rates in Excel format:
 - [Part D Results](./Results\Changing_associativity.xlsx)
 
 # License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
