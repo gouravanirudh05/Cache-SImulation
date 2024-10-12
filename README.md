@@ -49,7 +49,7 @@ Each trace file consists of:
 1. Clone the repository and navigate to the project directory. 
 2. Run the respective parts of the simulation:
 ``` bash
-python cache_simulator.py
+python code.py
 ```
 ## Output
 - The simulation outputs hit and miss rates for each memory trace file.
@@ -62,6 +62,7 @@ number of sets (cache lines) using the formula
 #### Cache size (in bytes) = (block-size) * (associativity) * (no.of cache lines) 
 We obtained the following hit and miss rates for the trace files: 
 Observations include the hit and miss rates for each trace file under this default configuration.
+
 ![parta_result](./Results/Parta.png)
 ## Part B: Cache Size Variation (128KB to 4096KB)
 - Miss rates change as cache size increases.
