@@ -109,10 +109,10 @@ access patterns of the program.
 
 # Excel Results for each trace file
 You can view the hit/miss rates in Excel format:
-- [Part A Results](./Results\Fixed_CacheSize.xlsx)
-- [Part B Results](./Results\Changing_CacheSize.xlsx)
-- [Part C Results](./Results\Changing_blocksize.xlsx)
-- [Part D Results](./Results\Changing_associativity.xlsx)
+- [4-Way Set Associative Cache (1024KB cache size, 4-byte block size) Results](./Results\Fixed_CacheSize.xlsx)
+- [Changing Cache Size Results](./Results\Changing_CacheSize.xlsx)
+- [Changing Block Size Results](./Results\Changing_blocksize.xlsx)
+- [Changing Associativity Results](./Results\Changing_associativity.xlsx)
 
 # License
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
