@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from tabulate import tabulate
 
-tracefiles = ['gcc.trace', 'gzip.trace', 'mcf.trace', 'swim.trace', 'twolf.trace'] 
+tracefiles = ['Tracefiles/gcc.trace', 'Tracefiles/gzip.trace', 'Tracefiles/mcf.trace', 'Tracefiles/swim.trace', 'Tracefiles/twolf.trace'] 
 
 class Cache:
     """
